@@ -623,3 +623,17 @@ SyntaxError (/home/vanetoro/rails-edit-update-action-readme-v-000/app/controller
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (95.4ms)
+
+
+Started GET "/posts/1/edit" for 73.193.248.224 at 2018-07-02 14:59:28 +0000
+
+SyntaxError (/home/vanetoro/rails-edit-update-action-readme-v-000/app/controllers/posts_controller.rb:28: syntax error, unexpected tLABEL
+		@post.update = (title: params[:title], description:...
+		                      ^
+/home/vanetoro/rails-edit-update-action-readme-v-000/app/controllers/posts_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+...e: params[:title], description:  params[:description])
+...                               ^):
+  app/controllers/posts_controller.rb:28: syntax error, unexpected tLABEL
+  app/controllers/posts_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+
+
